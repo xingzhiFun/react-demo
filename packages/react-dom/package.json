@@ -1,0 +1,22 @@
+{
+  "name": "react-dom",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yugang <yugang@youzan.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/react-dom.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.s.qima-inc.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
