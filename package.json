@@ -4,7 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^3.0.9",
     "lerna": "^3.18.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn test"
+    }
   },
   "scripts": {
     "test": "jest"
